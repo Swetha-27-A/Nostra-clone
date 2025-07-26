@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>collection</title>
+    
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
+    
+    
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+     
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <div>
+    
+
+    <div id="offer"   class="flex bg-gray-900 justify-center   ">
+    <h1    class="text-white p-2 text-xs md:text-xl ">Sign up and GET 20% OFF for your first order</h1>
+    <p id="crossbtn"   class="text-white p-2 text-xs md:text-xl ml-20 cursor-pointer ">X</p>
+    </div>
+    
+    <nav class="flex bg-white items-center justify-between p-3 mb-2 md:px-10 sticky z-50 t0p-0">
+        <h1 class="p-3 font-bold text-2xl">Nostra</h1>
+         <svg id="menuicon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 h-6 w-6 md:hidden">
+           <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+         </svg>
+
+        <ul class="flex p-3 gap-10 text-xl  mr-10  hidden md:flex ">
+            <li>
+                <a href="index.html" class="hover:underline">Home</a>
+        </li>
+        <li>
+            <a href="#Newarrivals" class="hover:underline">New Arrivals</a>
+        </li>
+        <li>
+            <a href="#Mostwanted" class="hover:underline">Most Wanted</a>
+        </li>
+        <li>
+            <a href="" class="hover:underline">Collections</a>
+        </li>
+        <li>
+            <a href="contact.html" class="hover:underline">Contact Us</a>
+        </li>
+         </ul>
+        </nav>
+
+<section id="sidenav" class= "bg-gray-900 text-white fixed z-50 top-0 transition-all duration-1000" style="width:50% ;height: 100vh;left: -50%;">
+    <div class="text-right p-5">
+        <p id="closebtn" class=" inline cursor-pointer ">X</p>
+    </div>
+    <ul class="flex flex-col p-3 gap-10  items-center text-xl  mr-10 ">
+            <li>
+                <a href="index.html" class="hover:underline">Home</a>
+        </li>
+        <li>
+            <a href="#Newarrivals" class="hover:underline">New Arrivals</a>
+        </li>
+        <li>
+            <a href="#Mostwanted" class="hover:underline">Most Wanted</a>
+        </li>
+        <li>
+            <a href="collection.html" class="hover:underline">Collections</a>
+        </li>
+        <li>
+            <a href="contact.html" class="hover:underline">Contact Us</a>
+        </li>
+         </ul>
+        
+</section>
+
+
+
+
+<!--sidesection-->
+<section>
+<div class="flex">
+<div class=" flex  flex-col p-5 h-full w-1/4">
+<div>
+<h1 class=" text-xl md:text-4xl font-bold p-3 mt-6">Occasion</h1>
+
+<input class="mb-4"     type="checkbox" value="Summer"><span class=" text-lg md:text-3xl ml-4 ">Summer</span><br>
+<input class="mb-4"    type="checkbox"  value="Party" ><span class="text-lg md:text-3xl ml-4 ">Party</span><br>
+<input  class="mb-4"   type="checkbox"  value="Beach"><span class="text-lg md:text-3xl ml-4">Beach</span><br>
+
+</div>
+<div class="">
+<h1 class="text-xl md:text-4xl font-bold p-3 mt-6">Colors</h1>
+<div class="">
+<input class="mb-4"     type="checkbox"        value="Red"><span class="text-lg md:text-3xl ml-4">Red</span><br>
+<input class="mb-4"    type="checkbox"        value="Blue"><span class=" text-lg md:text-3xl ml-4 ">Blue</span><br>
+<input  class="mb-4"    type="checkbox"        value="Green"><span class=" text-lg md:text-3xl ml-4 ">Green</span><br>
+<input  class="mb-4"     type="checkbox"      value="White"><span class="textlg md:text-3xl ml-4">White</span><br>
+<input  class="mb-4"     type="checkbox"       value="Black"><span class="text-lg md:text-3xl ml-4">Black</span><br>
+
+
+</div>
+</div>
+<div>
+  <h1 class="text-xl md:text-4xl font-bold p-3 mt-6">Arrivals</h1>
+    <input class="mb-4"   type="checkbox" value="Old"><span class=" text-lg md:text-3xl ml-4">Old</span><br>
+    <input class="mb-4"     type="checkbox" value="New"><span class="text-lg md:text-3xl ml-4">New</span><br>
+</div>
+
+</div>
+<!-- Vertical Line -->
+  <div class="border-r-4 border-black h-auto mx-2"></div>
+<!--Sarchbar-->
+<div class="w-3/4">
+    <div class="flex  items-center relative ml-3 p-5  ">
+        <input id="sarch" class=" w-full relative outline-none border border-black   rounded-lg ml-2 p-2  m-2"   type="text" placeholder="sarch">
+        <i class="fa-solid fa-magnifying-glass " style="color: #000000; position: absolute;left: 95%; " ></i>
+    </div>
+
+<!--products-->
+
+<div id="container" class="flex flex-wrap    md:grid grid-cols-3 gap-6 p-8 ml-20 ">
+<div class="product">
+    <img src="./Images/collect1.jpg" style="width: 20vm;">
+    <h1 class="text-sm md:text-2xl font-bold ">Floral Summershirt</h1>
+    <p class="font-bold">₹220</p>
+</div>
+<div class="product">
+    <img src="./Images/collect2.jpg" style="width: 20vm;">
+    <h1 class="text-sm md:text-2xl font-bold">Summer green</h1>
+    <p class="font-bold">₹260</p>
+</div>
+<div class="product">
+    <img src="./Images/collect3.jpg" style="width: 20vm;">
+    <h1 class="text-sm md:text-2xl font-bold">Party Red shirt</h1>
+    <p class="font-bold">₹399</p>
+</div>
+<div class="product">
+    <img src="./Images/collect4.jpg" style="width: 20vm;">
+    <h1 class="text-sm md:text-2xl font-bold">Floral summer shirt</h1>
+    <p class="font-semibold md:font-bold">₹399</p>
+</div>
+<div class="product">
+    <img src="./Images/collect5.jpg" style="width: 20vm;">
+    <h1 class="text-sm  md:text-2xl font-bold">Beach shirt</h1>
+    <p class=" font-bold">₹579</p>
+</div>
+<div class="product">
+    <img src="./Images/collect6.jpg" style="width: 20vm;">
+    <h1 class="text-sm md:text-2xl font-bold">Shirt red</h1>
+    <p class="font-bold">₹579</p>
+</div>
+<div class="product">
+    <img src="./Images/collect7.jpg" style="width: 20vm;">
+    <h1 class=" text-sm md:text-2xl font-bold">Floral Summer blueshirt</h1>
+    <p class="font-bold">₹399</p>
+</div>
+<div class="product">
+    <img src="./Images/collect8.jpg" style="width:20vm;">
+    <h1 class="text-sm md:text-2xl font-bold">Floral Summer blackshirt</h1>
+    <p class="font-bold">₹579</p>
+</div>
+<div class="product">
+    <img src="./Images/collect9.jpg" style="width: 20vm;">
+    <h1 class=" text-sm md:text-2xl font-bold">Floral Summer redshirt</h1>
+    <p class="font-bold">₹220</p>
+</div>
+</div>
+<div>
+    
+</section>
+
+<!--news letter-->
+<section style="text-align: center;" class="mt-20">
+    <h1 class="text-2xl  md:text-5xl font-bold p-3">Join our News Letter</h1>
+    <p class="text-lg md:text-3xl p-3">Signup for our email newspaper to get exclusive discounts, updates, and more</p>
+    <input class=" border border-gray-900 w-3/4 mt-3"   type="text"><br>
+    <button class=" bg-gray-900 rounded-md text-white p-2 border mt-3 text-sm md:lg ">Subscribe➜</button>
+
+</section>
+<!--footer-->
+<section class="mt-10">
+    <div class="bg-gray-900 p-5">
+        <h1 class="  text-xl text-white md:text-3xl font-bold mt-4">Nostra</h1>
+        <p class="  text-lg text-white md:text-3xl font-bold mt-4">The Standard chunk of Lorem ipsum used since the 1500s is reprodused below for those interest</p>
+        <ul class="flex justify-start mt-4 gap-7">
+           <li><img src="./Images/instagram1.png" class="w-10 h-10 bg-white "></li>
+            <li><img src="./Images/twitter1.png" class="w-10 h-10 bg-white"></li>
+            <li><img src="./Images/facebook 1.png" class="w-10 h-10 bg-white"></li>
+        </ul>
+        <p class=" text-lg md:text-3xl font-bold text-white mt-4 mb-5">@ 2023 Nostra.com</p>
+    </div>
+</section>
+    
+
+<script src="./collection.js"></script>
+
+    </body>
+    </html>
